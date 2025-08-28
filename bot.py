@@ -951,7 +951,7 @@ def main():
     application.add_error_handler(error_handler)
     
     # Start the bot
-    print("RoyalEarnings Bot is running...")
+    print("Victorex Trader Grant Bot is running...")
     application.run_polling()
 
 if __name__ == "__main__":
