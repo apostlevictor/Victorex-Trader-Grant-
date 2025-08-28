@@ -7,8 +7,8 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes, MessageHandler, filters
 
 # Bot configuration
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"  # Replace with your actual bot token from @BotFather
-ADMIN_IDS = [123456789]  # Replace with your admin user ID(s)
+BOT_TOKEN = "8381651968:AAF_aElufjur3GUnSwaSAYyrnc6eT2A-zxQ"  # Replace with your actual bot token from @BotFather
+ADMIN_IDS = [8367788232]  # Replace with your admin user ID(s)
 BANK_ACCOUNT = {"bank": "Moremonee", "name": "Victor Chukwuka", "number": "7062791952"}
 SUPPORT_EMAIL = "victorextrader@gmail.com"
 VERIFICATION_FEE = 10000  # ₦10,000
