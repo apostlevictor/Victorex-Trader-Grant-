@@ -344,7 +344,7 @@ async def admin_broadcast(update: Update, context: ContextTypes.DEFAULT_TYPE):
     
     for user in users:
         try:
-            await context.bot.send_message(chat_id=user[0], text=f"📢 RoyalEarnings Announcement:\n\n{message}")
+            await context.bot.send_message(chat_id=user[0], text=f"📢 Victorex Trader Grant-Bot Announcement:\n\n{message}")
             success_count += 1
         except Exception as e:
             print(f"Failed to send message to user {user[0]}: {e}")
@@ -685,7 +685,7 @@ async def handle_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
     
     elif query.data == 'bank_details':
         bank_text = (
-            "🏦 <b>RoyalEarnings Bank Details</b>\n\n"
+            "🏦 <b> Victorex Trader Grant-Bot</b>\n\n"
             f"Bank: {BANK_ACCOUNT['bank']}\n"
             f"Account Name: {BANK_ACCOUNT['name']}\n"
             f"Account Number: {BANK_ACCOUNT['number']}\n\n"
@@ -912,7 +912,7 @@ async def handle_photo(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 print(f"Failed to notify admin {admin_id}: {e}")
     else:
         await update.message.reply_text(
-            "Please send the receipt with a caption mentioning it's for verification.",
+            "Please send the transaction receipt.",
             reply_markup=get_back_keyboard()
         )
 
