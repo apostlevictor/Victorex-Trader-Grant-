@@ -9,7 +9,7 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Cont
 # Bot configuration
 BOT_TOKEN = "8381651968:AAF_aElufjur3GUnSwaSAYyrnc6eT2A-zxQ"  # Replace with your actual bot token from @BotFather
 ADMIN_IDS = [8367788232]  # Replace with your admin user ID(s)
-BANK_ACCOUNT = {"bank": "Moremonee", "name": "Victor Chukwuka", "number": "7062791952"}
+BANK_ACCOUNT = {"bank": "paystack", "name": "Victorex Grant bot check out", "number": "https://paystack.shop/pay/victorex-grantbot"}
 SUPPORT_EMAIL = "victorextrader@gmail.com"
 VERIFICATION_FEE = 10000  # ₦10,000
 MIN_WITHDRAWAL = 50000  # ₦50,000
